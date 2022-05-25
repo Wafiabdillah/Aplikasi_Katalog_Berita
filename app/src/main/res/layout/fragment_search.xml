@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="Anggota Kelompok"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <com.makeramen.roundedimageview.RoundedImageView
+        android:id="@+id/foto1"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="18dp"
+        android:src="@drawable/alan"
+        app:layout_constraintStart_toStartOf="@+id/tvTitle"
+        app:layout_constraintTop_toBottomOf="@+id/tvTitle" />
+
+    <TextView
+        android:id="@+id/nama1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:text="Alan Pratama Marzuki"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/foto1"
+        app:layout_constraintTop_toTopOf="@+id/foto1" />
+
+    <TextView
+        android:id="@+id/stambuk1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="F55119091"
+        app:layout_constraintStart_toStartOf="@+id/nama1"
+        app:layout_constraintTop_toBottomOf="@+id/nama1" />
+
+
+    <ImageView
+        android:id="@+id/foto2"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="12dp"
+        android:src="@drawable/wafi"
+        app:layout_constraintStart_toStartOf="@+id/foto1"
+        app:layout_constraintTop_toBottomOf="@+id/foto1" />
+
+    <TextView
+        android:id="@+id/nama2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:text="Mohammad Wafi Abdillah"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/foto2"
+        app:layout_constraintTop_toTopOf="@+id/foto2" />
+
+    <TextView
+        android:id="@+id/stambuk2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="F55119117"
+        app:layout_constraintStart_toStartOf="@+id/nama2"
+        app:layout_constraintTop_toBottomOf="@+id/nama2" />
+
+
+
+
+    <ImageView
+        android:id="@+id/foto3"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="12dp"
+        android:src="@drawable/nailul"
+        app:layout_constraintStart_toStartOf="@+id/foto2"
+        app:layout_constraintTop_toBottomOf="@+id/foto2" />
+
+    <TextView
+        android:id="@+id/nama3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:text="Nailul Hidayat Ramadhan"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/foto3"
+        app:layout_constraintTop_toTopOf="@+id/foto3" />
+
+    <TextView
+        android:id="@+id/stambuk3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="F55119084"
+        app:layout_constraintStart_toStartOf="@+id/nama3"
+        app:layout_constraintTop_toBottomOf="@+id/nama3" />
+
+
+
+    <ImageView
+        android:id="@+id/foto4"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="12dp"
+        android:src="@drawable/ewi"
+        app:layout_constraintStart_toStartOf="@+id/foto3"
+        app:layout_constraintTop_toBottomOf="@+id/foto3" />
+
+    <TextView
+        android:id="@+id/nama4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:text="Sri Widyaningrum"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/foto4"
+        app:layout_constraintTop_toTopOf="@+id/foto4" />
+
+    <TextView
+        android:id="@+id/stambuk4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="F55119087"
+        app:layout_constraintStart_toStartOf="@+id/nama4"
+        app:layout_constraintTop_toBottomOf="@+id/nama4" />
+
+
+
+    <ImageView
+        android:id="@+id/foto5"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="12dp"
+        android:src="@drawable/fitra"
+        app:layout_constraintStart_toStartOf="@+id/foto4"
+        app:layout_constraintTop_toBottomOf="@+id/foto4" />
+
+    <TextView
+        android:id="@+id/nama5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:text="Fitra"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/foto5"
+        app:layout_constraintTop_toTopOf="@+id/foto5" />
+
+    <TextView
+        android:id="@+id/stambuk5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="F55119013"
+        app:layout_constraintStart_toStartOf="@+id/nama5"
+        app:layout_constraintTop_toBottomOf="@+id/nama5" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
